@@ -1,0 +1,4 @@
+# The end-to-end extraction (without the optional map) uses Python's standard library.
+folium>=0.15,<1.0
+# Optional enhancement; download the English model separately to enable spaCy NER:
+spacy>=3.7,<4.0

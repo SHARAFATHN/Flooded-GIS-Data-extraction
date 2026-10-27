@@ -1,0 +1,34 @@
+report_id,published_date,hazard,mention,place_id,name,kind,admin1,country,latitude,longitude,resolution_method,geocode_method,source_text
+D001,2026-01-04,flood,Atlanta,us_atlanta,Atlanta,city,Georgia,United States,33.749,-84.388,unique_gazetteer_match,offline_gazetteer,"Heavy rainfall triggered flooding in Atlanta, Georgia. Roads near the Chattahoochee River were closed."
+D001,2026-01-04,flood,Georgia,us_georgia,Georgia,state,,United States,32.1656,-82.9001,contextual_gazetteer_resolution,offline_gazetteer,"Heavy rainfall triggered flooding in Atlanta, Georgia. Roads near the Chattahoochee River were closed."
+D001,2026-01-04,flood,Chattahoochee River,us_chattahoochee,Chattahoochee River,river,Georgia,United States,33.825,-84.454,unique_gazetteer_match,offline_gazetteer,"Heavy rainfall triggered flooding in Atlanta, Georgia. Roads near the Chattahoochee River were closed."
+D002,2026-01-05,flood,Houston,us_houston,Houston,city,Texas,United States,29.7604,-95.3698,unique_gazetteer_match,offline_gazetteer,"Flash floods were reported in Houston, Texas, near Buffalo Bayou."
+D002,2026-01-05,flood,Texas,us_texas,Texas,state,,United States,31.9686,-99.9018,unique_gazetteer_match,offline_gazetteer,"Flash floods were reported in Houston, Texas, near Buffalo Bayou."
+D002,2026-01-05,flood,Buffalo Bayou,us_buffalo_bayou,Buffalo Bayou,river,Texas,United States,29.7609,-95.389,unique_gazetteer_match,offline_gazetteer,"Flash floods were reported in Houston, Texas, near Buffalo Bayou."
+D003,2026-01-06,wildfire,Miami,us_miami,Miami,city,Florida,United States,25.7617,-80.1918,unique_gazetteer_match,offline_gazetteer,"Fire crews responded to a wildfire north of Miami, Florida."
+D003,2026-01-06,wildfire,Florida,us_florida,Florida,state,,United States,27.6648,-81.5158,unique_gazetteer_match,offline_gazetteer,"Fire crews responded to a wildfire north of Miami, Florida."
+D004,2026-01-07,storm,Paris,us_paris_tx,Paris,city,Texas,United States,33.6609,-95.5555,contextual_gazetteer_resolution,offline_gazetteer,"Storm damage affected Paris, Texas, and nearby communities."
+D004,2026-01-07,storm,Texas,us_texas,Texas,state,,United States,31.9686,-99.9018,unique_gazetteer_match,offline_gazetteer,"Storm damage affected Paris, Texas, and nearby communities."
+D005,2026-01-08,storm,Seine River,fr_seine,Seine River,river,Île-de-France,France,48.8581,2.291,unique_gazetteer_match,offline_gazetteer,"Water levels rose along the Seine River in Paris, France, following heavy rainfall."
+D005,2026-01-08,storm,Paris,fr_paris,Paris,city,Île-de-France,France,48.8566,2.3522,contextual_gazetteer_resolution,offline_gazetteer,"Water levels rose along the Seine River in Paris, France, following heavy rainfall."
+D005,2026-01-08,storm,France,fr_france,France,country,,France,46.6034,1.8883,unique_gazetteer_match,offline_gazetteer,"Water levels rose along the Seine River in Paris, France, following heavy rainfall."
+D006,2026-01-09,flood,Fulton County,us_fulton,Fulton County,county,Georgia,United States,33.79,-84.47,unique_gazetteer_match,offline_gazetteer,"Flooding was recorded in Fulton County, Georgia, south of Atlanta."
+D006,2026-01-09,flood,Georgia,us_georgia,Georgia,state,,United States,32.1656,-82.9001,contextual_gazetteer_resolution,offline_gazetteer,"Flooding was recorded in Fulton County, Georgia, south of Atlanta."
+D006,2026-01-09,flood,Atlanta,us_atlanta,Atlanta,city,Georgia,United States,33.749,-84.388,unique_gazetteer_match,offline_gazetteer,"Flooding was recorded in Fulton County, Georgia, south of Atlanta."
+D007,2026-01-10,flood,Paris,fr_paris,Paris,city,Île-de-France,France,48.8566,2.3522,contextual_gazetteer_resolution,offline_gazetteer,Residents of Paris reported floods near the Seine River.
+D007,2026-01-10,flood,Seine River,fr_seine,Seine River,river,Île-de-France,France,48.8581,2.291,unique_gazetteer_match,offline_gazetteer,Residents of Paris reported floods near the Seine River.
+D008,2026-01-11,flood,Paris,us_paris_tx,Paris,city,Texas,United States,33.6609,-95.5555,contextual_gazetteer_resolution,offline_gazetteer,Floodwaters rose in Paris near the Red River in Texas.
+D008,2026-01-11,flood,Red River,us_red_river,Red River,river,Texas,United States,33.876,-95.54,unique_gazetteer_match,offline_gazetteer,Floodwaters rose in Paris near the Red River in Texas.
+D008,2026-01-11,flood,Texas,us_texas,Texas,state,,United States,31.9686,-99.9018,unique_gazetteer_match,offline_gazetteer,Floodwaters rose in Paris near the Red River in Texas.
+D009,2026-01-12,landslide,Asheville,us_asheville,Asheville,city,North Carolina,United States,35.5951,-82.5515,unique_gazetteer_match,offline_gazetteer,"A landslide was reported near Asheville, North Carolina."
+D009,2026-01-12,landslide,North Carolina,us_north_carolina,North Carolina,state,,United States,35.7596,-79.0193,unique_gazetteer_match,offline_gazetteer,"A landslide was reported near Asheville, North Carolina."
+D010,2026-01-13,storm,Tampa,us_tampa,Tampa,city,Florida,United States,27.9506,-82.4572,unique_gazetteer_match,offline_gazetteer,"Storm surge damaged roads in Tampa, Florida."
+D010,2026-01-13,storm,Florida,us_florida,Florida,state,,United States,27.6648,-81.5158,unique_gazetteer_match,offline_gazetteer,"Storm surge damaged roads in Tampa, Florida."
+D011,2026-01-14,storm,Miami,us_miami,Miami,city,Florida,United States,25.7617,-80.1918,unique_gazetteer_match,offline_gazetteer,"The storm moved from Miami, Florida toward Tampa, Florida."
+D011,2026-01-14,storm,Florida,us_florida,Florida,state,,United States,27.6648,-81.5158,unique_gazetteer_match,offline_gazetteer,"The storm moved from Miami, Florida toward Tampa, Florida."
+D011,2026-01-14,storm,Tampa,us_tampa,Tampa,city,Florida,United States,27.9506,-82.4572,unique_gazetteer_match,offline_gazetteer,"The storm moved from Miami, Florida toward Tampa, Florida."
+D011,2026-01-14,storm,Florida,us_florida,Florida,state,,United States,27.6648,-81.5158,unique_gazetteer_match,offline_gazetteer,"The storm moved from Miami, Florida toward Tampa, Florida."
+D013,2026-01-16,flood,Atlanta,us_atlanta,Atlanta,city,Georgia,United States,33.749,-84.388,unique_gazetteer_match,offline_gazetteer,Creek overflow caused flooding in Atlanta near Peachtree Creek.
+D013,2026-01-16,flood,Peachtree Creek,us_peachtree_creek,Peachtree Creek,river,Georgia,United States,33.814,-84.393,unique_gazetteer_match,offline_gazetteer,Creek overflow caused flooding in Atlanta near Peachtree Creek.
+D014,2026-01-17,storm,Springfield,us_springfield_il,Springfield,city,Illinois,United States,39.7817,-89.6501,contextual_gazetteer_resolution,offline_gazetteer,"Storm-related power outages were reported in Springfield, Illinois."
+D014,2026-01-17,storm,Illinois,us_illinois,Illinois,state,,United States,40.6331,-89.3985,unique_gazetteer_match,offline_gazetteer,"Storm-related power outages were reported in Springfield, Illinois."

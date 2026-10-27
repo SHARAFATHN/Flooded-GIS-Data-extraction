@@ -1,0 +1,17 @@
+{
+  "reports_processed": 14,
+  "resolved_place_mentions": 33,
+  "unresolved_place_mentions": 1,
+  "spatial_relations_extracted": 20,
+  "reports_by_hazard": {
+    "flood": 7,
+    "wildfire": 1,
+    "storm": 5,
+    "landslide": 1
+  },
+  "ner_modes": {
+    "gazetteer_only": 14
+  },
+  "warning": "Extracted references are NOT verified disaster locations or impact extents.",
+  "map_created": true
+}

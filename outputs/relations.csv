@@ -1,0 +1,21 @@
+report_id,hazard,relation,from_place_id,from_place,to_place_id,to_place,subject_text,sentence_index
+D001,flood,in,,,us_atlanta,Atlanta,Heavy rainfall triggered flooding,0
+D001,flood,near,,,us_chattahoochee,Chattahoochee River,Roads,1
+D002,flood,in,,,us_houston,Houston,Flash floods were reported,0
+D002,flood,near,us_houston,Houston,us_buffalo_bayou,Buffalo Bayou,,0
+D003,wildfire,north_of,,,us_miami,Miami,Fire crews responded to a wildfire,0
+D005,storm,along,,,fr_seine,Seine River,Water levels rose,0
+D005,storm,in,fr_seine,Seine River,fr_paris,Paris,,0
+D006,flood,in,,,us_fulton,Fulton County,Flooding was recorded,0
+D006,flood,south_of,us_fulton,Fulton County,us_atlanta,Atlanta,,0
+D007,flood,near,fr_paris,Paris,fr_seine,Seine River,,0
+D008,flood,in,,,us_paris_tx,Paris,Floodwaters rose,0
+D008,flood,near,us_paris_tx,Paris,us_red_river,Red River,,0
+D008,flood,in,us_red_river,Red River,us_texas,Texas,,0
+D009,landslide,near,,,us_asheville,Asheville,A landslide was reported,0
+D010,storm,in,,,us_tampa,Tampa,Storm surge damaged roads,0
+D011,storm,from,,,us_miami,Miami,The storm moved,0
+D011,storm,toward,us_miami,Miami,us_tampa,Tampa,,0
+D013,flood,in,,,us_atlanta,Atlanta,Creek overflow caused flooding,0
+D013,flood,near,us_atlanta,Atlanta,us_peachtree_creek,Peachtree Creek,,0
+D014,storm,in,,,us_springfield_il,Springfield,Storm-related power outages were reported,0

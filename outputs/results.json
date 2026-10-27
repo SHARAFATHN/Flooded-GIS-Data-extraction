@@ -1,0 +1,1036 @@
+[
+  {
+    "report_id": "D001",
+    "source": "synthetic_news",
+    "published_date": "2026-01-04",
+    "hazard": "flood",
+    "ner_mode": "gazetteer_only",
+    "text": "Heavy rainfall triggered flooding in Atlanta, Georgia. Roads near the Chattahoochee River were closed.",
+    "locations": [
+      {
+        "mention": "Atlanta",
+        "start": 37,
+        "end": 44,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_atlanta"
+        ],
+        "place_id": "us_atlanta",
+        "name": "Atlanta",
+        "kind": "city",
+        "admin1": "Georgia",
+        "country": "United States",
+        "latitude": 33.749,
+        "longitude": -84.388,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Georgia",
+        "start": 46,
+        "end": 53,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "contextual_gazetteer_resolution",
+        "candidate_place_ids": [
+          "us_georgia",
+          "ge_georgia"
+        ],
+        "place_id": "us_georgia",
+        "name": "Georgia",
+        "kind": "state",
+        "admin1": "",
+        "country": "United States",
+        "latitude": 32.1656,
+        "longitude": -82.9001,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Chattahoochee River",
+        "start": 70,
+        "end": 89,
+        "sentence_index": 1,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_chattahoochee"
+        ],
+        "place_id": "us_chattahoochee",
+        "name": "Chattahoochee River",
+        "kind": "river",
+        "admin1": "Georgia",
+        "country": "United States",
+        "latitude": 33.825,
+        "longitude": -84.454,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "in",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "us_atlanta",
+        "to_place": "Atlanta",
+        "subject_text": "Heavy rainfall triggered flooding",
+        "sentence_index": 0
+      },
+      {
+        "relation": "near",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "us_chattahoochee",
+        "to_place": "Chattahoochee River",
+        "subject_text": "Roads",
+        "sentence_index": 1
+      }
+    ]
+  },
+  {
+    "report_id": "D002",
+    "source": "synthetic_news",
+    "published_date": "2026-01-05",
+    "hazard": "flood",
+    "ner_mode": "gazetteer_only",
+    "text": "Flash floods were reported in Houston, Texas, near Buffalo Bayou.",
+    "locations": [
+      {
+        "mention": "Houston",
+        "start": 30,
+        "end": 37,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_houston"
+        ],
+        "place_id": "us_houston",
+        "name": "Houston",
+        "kind": "city",
+        "admin1": "Texas",
+        "country": "United States",
+        "latitude": 29.7604,
+        "longitude": -95.3698,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Texas",
+        "start": 39,
+        "end": 44,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_texas"
+        ],
+        "place_id": "us_texas",
+        "name": "Texas",
+        "kind": "state",
+        "admin1": "",
+        "country": "United States",
+        "latitude": 31.9686,
+        "longitude": -99.9018,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Buffalo Bayou",
+        "start": 51,
+        "end": 64,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_buffalo_bayou"
+        ],
+        "place_id": "us_buffalo_bayou",
+        "name": "Buffalo Bayou",
+        "kind": "river",
+        "admin1": "Texas",
+        "country": "United States",
+        "latitude": 29.7609,
+        "longitude": -95.389,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "in",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "us_houston",
+        "to_place": "Houston",
+        "subject_text": "Flash floods were reported",
+        "sentence_index": 0
+      },
+      {
+        "relation": "near",
+        "from_place_id": "us_houston",
+        "from_place": "Houston",
+        "to_place_id": "us_buffalo_bayou",
+        "to_place": "Buffalo Bayou",
+        "subject_text": null,
+        "sentence_index": 0
+      }
+    ]
+  },
+  {
+    "report_id": "D003",
+    "source": "synthetic_social",
+    "published_date": "2026-01-06",
+    "hazard": "wildfire",
+    "ner_mode": "gazetteer_only",
+    "text": "Fire crews responded to a wildfire north of Miami, Florida.",
+    "locations": [
+      {
+        "mention": "Miami",
+        "start": 44,
+        "end": 49,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_miami"
+        ],
+        "place_id": "us_miami",
+        "name": "Miami",
+        "kind": "city",
+        "admin1": "Florida",
+        "country": "United States",
+        "latitude": 25.7617,
+        "longitude": -80.1918,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Florida",
+        "start": 51,
+        "end": 58,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_florida"
+        ],
+        "place_id": "us_florida",
+        "name": "Florida",
+        "kind": "state",
+        "admin1": "",
+        "country": "United States",
+        "latitude": 27.6648,
+        "longitude": -81.5158,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "north_of",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "us_miami",
+        "to_place": "Miami",
+        "subject_text": "Fire crews responded to a wildfire",
+        "sentence_index": 0
+      }
+    ]
+  },
+  {
+    "report_id": "D004",
+    "source": "synthetic_news",
+    "published_date": "2026-01-07",
+    "hazard": "storm",
+    "ner_mode": "gazetteer_only",
+    "text": "Storm damage affected Paris, Texas, and nearby communities.",
+    "locations": [
+      {
+        "mention": "Paris",
+        "start": 22,
+        "end": 27,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "contextual_gazetteer_resolution",
+        "candidate_place_ids": [
+          "us_paris_tx",
+          "fr_paris"
+        ],
+        "place_id": "us_paris_tx",
+        "name": "Paris",
+        "kind": "city",
+        "admin1": "Texas",
+        "country": "United States",
+        "latitude": 33.6609,
+        "longitude": -95.5555,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Texas",
+        "start": 29,
+        "end": 34,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_texas"
+        ],
+        "place_id": "us_texas",
+        "name": "Texas",
+        "kind": "state",
+        "admin1": "",
+        "country": "United States",
+        "latitude": 31.9686,
+        "longitude": -99.9018,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": []
+  },
+  {
+    "report_id": "D005",
+    "source": "synthetic_news",
+    "published_date": "2026-01-08",
+    "hazard": "storm",
+    "ner_mode": "gazetteer_only",
+    "text": "Water levels rose along the Seine River in Paris, France, following heavy rainfall.",
+    "locations": [
+      {
+        "mention": "Seine River",
+        "start": 28,
+        "end": 39,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "fr_seine"
+        ],
+        "place_id": "fr_seine",
+        "name": "Seine River",
+        "kind": "river",
+        "admin1": "Île-de-France",
+        "country": "France",
+        "latitude": 48.8581,
+        "longitude": 2.291,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Paris",
+        "start": 43,
+        "end": 48,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "contextual_gazetteer_resolution",
+        "candidate_place_ids": [
+          "us_paris_tx",
+          "fr_paris"
+        ],
+        "place_id": "fr_paris",
+        "name": "Paris",
+        "kind": "city",
+        "admin1": "Île-de-France",
+        "country": "France",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "France",
+        "start": 50,
+        "end": 56,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "fr_france"
+        ],
+        "place_id": "fr_france",
+        "name": "France",
+        "kind": "country",
+        "admin1": "",
+        "country": "France",
+        "latitude": 46.6034,
+        "longitude": 1.8883,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "along",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "fr_seine",
+        "to_place": "Seine River",
+        "subject_text": "Water levels rose",
+        "sentence_index": 0
+      },
+      {
+        "relation": "in",
+        "from_place_id": "fr_seine",
+        "from_place": "Seine River",
+        "to_place_id": "fr_paris",
+        "to_place": "Paris",
+        "subject_text": null,
+        "sentence_index": 0
+      }
+    ]
+  },
+  {
+    "report_id": "D006",
+    "source": "synthetic_agency",
+    "published_date": "2026-01-09",
+    "hazard": "flood",
+    "ner_mode": "gazetteer_only",
+    "text": "Flooding was recorded in Fulton County, Georgia, south of Atlanta.",
+    "locations": [
+      {
+        "mention": "Fulton County",
+        "start": 25,
+        "end": 38,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_fulton"
+        ],
+        "place_id": "us_fulton",
+        "name": "Fulton County",
+        "kind": "county",
+        "admin1": "Georgia",
+        "country": "United States",
+        "latitude": 33.79,
+        "longitude": -84.47,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Georgia",
+        "start": 40,
+        "end": 47,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "contextual_gazetteer_resolution",
+        "candidate_place_ids": [
+          "us_georgia",
+          "ge_georgia"
+        ],
+        "place_id": "us_georgia",
+        "name": "Georgia",
+        "kind": "state",
+        "admin1": "",
+        "country": "United States",
+        "latitude": 32.1656,
+        "longitude": -82.9001,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Atlanta",
+        "start": 58,
+        "end": 65,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_atlanta"
+        ],
+        "place_id": "us_atlanta",
+        "name": "Atlanta",
+        "kind": "city",
+        "admin1": "Georgia",
+        "country": "United States",
+        "latitude": 33.749,
+        "longitude": -84.388,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "in",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "us_fulton",
+        "to_place": "Fulton County",
+        "subject_text": "Flooding was recorded",
+        "sentence_index": 0
+      },
+      {
+        "relation": "south_of",
+        "from_place_id": "us_fulton",
+        "from_place": "Fulton County",
+        "to_place_id": "us_atlanta",
+        "to_place": "Atlanta",
+        "subject_text": null,
+        "sentence_index": 0
+      }
+    ]
+  },
+  {
+    "report_id": "D007",
+    "source": "synthetic_social",
+    "published_date": "2026-01-10",
+    "hazard": "flood",
+    "ner_mode": "gazetteer_only",
+    "text": "Residents of Paris reported floods near the Seine River.",
+    "locations": [
+      {
+        "mention": "Paris",
+        "start": 13,
+        "end": 18,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "contextual_gazetteer_resolution",
+        "candidate_place_ids": [
+          "us_paris_tx",
+          "fr_paris"
+        ],
+        "place_id": "fr_paris",
+        "name": "Paris",
+        "kind": "city",
+        "admin1": "Île-de-France",
+        "country": "France",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Seine River",
+        "start": 44,
+        "end": 55,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "fr_seine"
+        ],
+        "place_id": "fr_seine",
+        "name": "Seine River",
+        "kind": "river",
+        "admin1": "Île-de-France",
+        "country": "France",
+        "latitude": 48.8581,
+        "longitude": 2.291,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "near",
+        "from_place_id": "fr_paris",
+        "from_place": "Paris",
+        "to_place_id": "fr_seine",
+        "to_place": "Seine River",
+        "subject_text": null,
+        "sentence_index": 0
+      }
+    ]
+  },
+  {
+    "report_id": "D008",
+    "source": "synthetic_news",
+    "published_date": "2026-01-11",
+    "hazard": "flood",
+    "ner_mode": "gazetteer_only",
+    "text": "Floodwaters rose in Paris near the Red River in Texas.",
+    "locations": [
+      {
+        "mention": "Paris",
+        "start": 20,
+        "end": 25,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "contextual_gazetteer_resolution",
+        "candidate_place_ids": [
+          "us_paris_tx",
+          "fr_paris"
+        ],
+        "place_id": "us_paris_tx",
+        "name": "Paris",
+        "kind": "city",
+        "admin1": "Texas",
+        "country": "United States",
+        "latitude": 33.6609,
+        "longitude": -95.5555,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Red River",
+        "start": 35,
+        "end": 44,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_red_river"
+        ],
+        "place_id": "us_red_river",
+        "name": "Red River",
+        "kind": "river",
+        "admin1": "Texas",
+        "country": "United States",
+        "latitude": 33.876,
+        "longitude": -95.54,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Texas",
+        "start": 48,
+        "end": 53,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_texas"
+        ],
+        "place_id": "us_texas",
+        "name": "Texas",
+        "kind": "state",
+        "admin1": "",
+        "country": "United States",
+        "latitude": 31.9686,
+        "longitude": -99.9018,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "in",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "us_paris_tx",
+        "to_place": "Paris",
+        "subject_text": "Floodwaters rose",
+        "sentence_index": 0
+      },
+      {
+        "relation": "near",
+        "from_place_id": "us_paris_tx",
+        "from_place": "Paris",
+        "to_place_id": "us_red_river",
+        "to_place": "Red River",
+        "subject_text": null,
+        "sentence_index": 0
+      },
+      {
+        "relation": "in",
+        "from_place_id": "us_red_river",
+        "from_place": "Red River",
+        "to_place_id": "us_texas",
+        "to_place": "Texas",
+        "subject_text": null,
+        "sentence_index": 0
+      }
+    ]
+  },
+  {
+    "report_id": "D009",
+    "source": "synthetic_agency",
+    "published_date": "2026-01-12",
+    "hazard": "landslide",
+    "ner_mode": "gazetteer_only",
+    "text": "A landslide was reported near Asheville, North Carolina.",
+    "locations": [
+      {
+        "mention": "Asheville",
+        "start": 30,
+        "end": 39,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_asheville"
+        ],
+        "place_id": "us_asheville",
+        "name": "Asheville",
+        "kind": "city",
+        "admin1": "North Carolina",
+        "country": "United States",
+        "latitude": 35.5951,
+        "longitude": -82.5515,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "North Carolina",
+        "start": 41,
+        "end": 55,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_north_carolina"
+        ],
+        "place_id": "us_north_carolina",
+        "name": "North Carolina",
+        "kind": "state",
+        "admin1": "",
+        "country": "United States",
+        "latitude": 35.7596,
+        "longitude": -79.0193,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "near",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "us_asheville",
+        "to_place": "Asheville",
+        "subject_text": "A landslide was reported",
+        "sentence_index": 0
+      }
+    ]
+  },
+  {
+    "report_id": "D010",
+    "source": "synthetic_news",
+    "published_date": "2026-01-13",
+    "hazard": "storm",
+    "ner_mode": "gazetteer_only",
+    "text": "Storm surge damaged roads in Tampa, Florida.",
+    "locations": [
+      {
+        "mention": "Tampa",
+        "start": 29,
+        "end": 34,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_tampa"
+        ],
+        "place_id": "us_tampa",
+        "name": "Tampa",
+        "kind": "city",
+        "admin1": "Florida",
+        "country": "United States",
+        "latitude": 27.9506,
+        "longitude": -82.4572,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Florida",
+        "start": 36,
+        "end": 43,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_florida"
+        ],
+        "place_id": "us_florida",
+        "name": "Florida",
+        "kind": "state",
+        "admin1": "",
+        "country": "United States",
+        "latitude": 27.6648,
+        "longitude": -81.5158,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "in",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "us_tampa",
+        "to_place": "Tampa",
+        "subject_text": "Storm surge damaged roads",
+        "sentence_index": 0
+      }
+    ]
+  },
+  {
+    "report_id": "D011",
+    "source": "synthetic_agency",
+    "published_date": "2026-01-14",
+    "hazard": "storm",
+    "ner_mode": "gazetteer_only",
+    "text": "The storm moved from Miami, Florida toward Tampa, Florida.",
+    "locations": [
+      {
+        "mention": "Miami",
+        "start": 21,
+        "end": 26,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_miami"
+        ],
+        "place_id": "us_miami",
+        "name": "Miami",
+        "kind": "city",
+        "admin1": "Florida",
+        "country": "United States",
+        "latitude": 25.7617,
+        "longitude": -80.1918,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Florida",
+        "start": 28,
+        "end": 35,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_florida"
+        ],
+        "place_id": "us_florida",
+        "name": "Florida",
+        "kind": "state",
+        "admin1": "",
+        "country": "United States",
+        "latitude": 27.6648,
+        "longitude": -81.5158,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Tampa",
+        "start": 43,
+        "end": 48,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_tampa"
+        ],
+        "place_id": "us_tampa",
+        "name": "Tampa",
+        "kind": "city",
+        "admin1": "Florida",
+        "country": "United States",
+        "latitude": 27.9506,
+        "longitude": -82.4572,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Florida",
+        "start": 50,
+        "end": 57,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_florida"
+        ],
+        "place_id": "us_florida",
+        "name": "Florida",
+        "kind": "state",
+        "admin1": "",
+        "country": "United States",
+        "latitude": 27.6648,
+        "longitude": -81.5158,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "from",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "us_miami",
+        "to_place": "Miami",
+        "subject_text": "The storm moved",
+        "sentence_index": 0
+      },
+      {
+        "relation": "toward",
+        "from_place_id": "us_miami",
+        "from_place": "Miami",
+        "to_place_id": "us_tampa",
+        "to_place": "Tampa",
+        "subject_text": null,
+        "sentence_index": 0
+      }
+    ]
+  },
+  {
+    "report_id": "D012",
+    "source": "synthetic_social",
+    "published_date": "2026-01-15",
+    "hazard": "flood",
+    "ner_mode": "gazetteer_only",
+    "text": "Flooding affected Springfield.",
+    "locations": [
+      {
+        "mention": "Springfield",
+        "start": 18,
+        "end": 29,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "ambiguous",
+        "resolution_method": "insufficient_context",
+        "candidate_place_ids": [
+          "us_springfield_il",
+          "us_springfield_ma"
+        ],
+        "place_id": null,
+        "name": null,
+        "kind": null,
+        "admin1": null,
+        "country": null,
+        "latitude": null,
+        "longitude": null,
+        "geocode_method": null
+      }
+    ],
+    "spatial_relations": []
+  },
+  {
+    "report_id": "D013",
+    "source": "synthetic_news",
+    "published_date": "2026-01-16",
+    "hazard": "flood",
+    "ner_mode": "gazetteer_only",
+    "text": "Creek overflow caused flooding in Atlanta near Peachtree Creek.",
+    "locations": [
+      {
+        "mention": "Atlanta",
+        "start": 34,
+        "end": 41,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_atlanta"
+        ],
+        "place_id": "us_atlanta",
+        "name": "Atlanta",
+        "kind": "city",
+        "admin1": "Georgia",
+        "country": "United States",
+        "latitude": 33.749,
+        "longitude": -84.388,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Peachtree Creek",
+        "start": 47,
+        "end": 62,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_peachtree_creek"
+        ],
+        "place_id": "us_peachtree_creek",
+        "name": "Peachtree Creek",
+        "kind": "river",
+        "admin1": "Georgia",
+        "country": "United States",
+        "latitude": 33.814,
+        "longitude": -84.393,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "in",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "us_atlanta",
+        "to_place": "Atlanta",
+        "subject_text": "Creek overflow caused flooding",
+        "sentence_index": 0
+      },
+      {
+        "relation": "near",
+        "from_place_id": "us_atlanta",
+        "from_place": "Atlanta",
+        "to_place_id": "us_peachtree_creek",
+        "to_place": "Peachtree Creek",
+        "subject_text": null,
+        "sentence_index": 0
+      }
+    ]
+  },
+  {
+    "report_id": "D014",
+    "source": "synthetic_agency",
+    "published_date": "2026-01-17",
+    "hazard": "storm",
+    "ner_mode": "gazetteer_only",
+    "text": "Storm-related power outages were reported in Springfield, Illinois.",
+    "locations": [
+      {
+        "mention": "Springfield",
+        "start": 45,
+        "end": 56,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "contextual_gazetteer_resolution",
+        "candidate_place_ids": [
+          "us_springfield_il",
+          "us_springfield_ma"
+        ],
+        "place_id": "us_springfield_il",
+        "name": "Springfield",
+        "kind": "city",
+        "admin1": "Illinois",
+        "country": "United States",
+        "latitude": 39.7817,
+        "longitude": -89.6501,
+        "geocode_method": "offline_gazetteer"
+      },
+      {
+        "mention": "Illinois",
+        "start": 58,
+        "end": 66,
+        "sentence_index": 0,
+        "source": "gazetteer",
+        "status": "resolved",
+        "resolution_method": "unique_gazetteer_match",
+        "candidate_place_ids": [
+          "us_illinois"
+        ],
+        "place_id": "us_illinois",
+        "name": "Illinois",
+        "kind": "state",
+        "admin1": "",
+        "country": "United States",
+        "latitude": 40.6331,
+        "longitude": -89.3985,
+        "geocode_method": "offline_gazetteer"
+      }
+    ],
+    "spatial_relations": [
+      {
+        "relation": "in",
+        "from_place_id": null,
+        "from_place": null,
+        "to_place_id": "us_springfield_il",
+        "to_place": "Springfield",
+        "subject_text": "Storm-related power outages were reported",
+        "sentence_index": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "report_id": "D012",
+    "mention": "Springfield",
+    "status": "ambiguous",
+    "candidate_place_ids": [
+      "us_springfield_il",
+      "us_springfield_ma"
+    ]
+  }
+]
